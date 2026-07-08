@@ -1,0 +1,35 @@
+# Local/raw data must not be committed.
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local notebooks and OS files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs and temp artifacts
+# (주의: 팀 운영 로그 폴더 logs/ 는 Git에 포함한다. 여기의 *.log 는 런타임 로그 파일만 제외한다.)
+out/
+*.log
+
+# Secrets and environment
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# Editors
+.vscode/
+.idea/
