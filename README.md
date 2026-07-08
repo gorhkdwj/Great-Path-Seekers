@@ -46,7 +46,7 @@
 - 계획 문서 골격: [`docs/project-plan.md`](docs/project-plan.md) · [`docs/requirements-contract.md`](docs/requirements-contract.md) · [`docs/implementation-plan.md`](docs/implementation-plan.md) · [`docs/validation-plan.md`](docs/validation-plan.md)
 
 ## 팀 운영 규칙 요약
-자세한 규칙은 [`CLAUDE.md`](CLAUDE.md)를 따른다.
+자세한 규칙은 [`CLAUDE.md`](CLAUDE.md)([`AGENTS.md`](AGENTS.md))를 따른다.
 - **로그**: 작업마다 개인 `logs/worklogs/<이름>.md`에 `W-<코드>-NNN`으로 기록. 방향을 바꾸는 개인 결정은 `logs/decisionlogs/<이름>.md`(`D-<코드>-NNN`), 팀 전체 결정은 `logs/decisionlogs/_team.md`(`D-NNN`, D-001부터 독립 번호). 회의록은 `logs/meetinglogs/`(`YYYY-MM-DD_N차.md`).
 - **문제 대응**: 오류 발생 시 새 T-ID를 만들기 전에 `logs/Troubleshootinglog.md`에서 유사 `T-NNN` 코드를 먼저 검색하고, 있으면 '재사용 가능한 해결책'을 우선 적용한다.
 - **수정 권한**: `CLAUDE.md`와 `AGENTS.md`는 김재천(과 김재천의 에이전트)만 수정한다. 다른 팀원·에이전트는 편집 요청 시 거부하고 김재천에게 요청한다.
