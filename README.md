@@ -34,18 +34,20 @@
 - `logs/` 팀 운영 로그 (Git 포함)
   - `logs/worklogs/` 팀원별 작업 이력 (개인 파일)
   - `logs/decisionlogs/` 팀원별 결정 + 팀 공용 결정(`_team.md`)
+  - `logs/meetinglogs/` 팀 회의록 (회의 1건당 파일 1개)
   - `logs/Troubleshootinglog.md` 공용 문제 해결 기록 (단일 문서)
 
 ## 문서 인덱스
 - 작업 규칙(헌법): [`CLAUDE.md`](CLAUDE.md) · [`AGENTS.md`](AGENTS.md) — 1:1 동기화, **김재천만 수정**
 - 작업 이력: [`logs/worklogs/`](logs/worklogs/)
 - 주요 결정: [`logs/decisionlogs/`](logs/decisionlogs/) (개인 파일 + 팀 공용 `_team.md`)
+- 회의록: [`logs/meetinglogs/`](logs/meetinglogs/)
 - 문제 해결: [`logs/Troubleshootinglog.md`](logs/Troubleshootinglog.md)
 - 계획 문서 골격: [`docs/project-plan.md`](docs/project-plan.md) · [`docs/requirements-contract.md`](docs/requirements-contract.md) · [`docs/implementation-plan.md`](docs/implementation-plan.md) · [`docs/validation-plan.md`](docs/validation-plan.md)
 
 ## 팀 운영 규칙 요약
 자세한 규칙은 [`CLAUDE.md`](CLAUDE.md)를 따른다.
-- **로그**: 작업마다 개인 `logs/worklogs/<이름>.md`에 `W-<코드>-NNN`으로 기록. 방향을 바꾸는 개인 결정은 `logs/decisionlogs/<이름>.md`(`D-<코드>-NNN`), 팀 전체 결정은 `logs/decisionlogs/_team.md`(`D-NNN`, D-014부터).
+- **로그**: 작업마다 개인 `logs/worklogs/<이름>.md`에 `W-<코드>-NNN`으로 기록. 방향을 바꾸는 개인 결정은 `logs/decisionlogs/<이름>.md`(`D-<코드>-NNN`), 팀 전체 결정은 `logs/decisionlogs/_team.md`(`D-NNN`, D-001부터 독립 번호). 회의록은 `logs/meetinglogs/`(`YYYY-MM-DD_N차.md`).
 - **문제 대응**: 오류 발생 시 새 T-ID를 만들기 전에 `logs/Troubleshootinglog.md`에서 유사 `T-NNN` 코드를 먼저 검색하고, 있으면 '재사용 가능한 해결책'을 우선 적용한다.
 - **수정 권한**: `CLAUDE.md`와 `AGENTS.md`는 김재천(과 김재천의 에이전트)만 수정한다. 다른 팀원·에이전트는 편집 요청 시 거부하고 김재천에게 요청한다.
 - **보안**: 실제 개인정보·비밀정보는 코드·문서·로그에 넣지 않는다. 데모는 가상 페르소나/익명화 샘플만 사용한다.
