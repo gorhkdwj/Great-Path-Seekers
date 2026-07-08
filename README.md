@@ -43,7 +43,8 @@
 - 주요 결정: [`logs/decisionlogs/`](logs/decisionlogs/) (개인 파일 + 팀 공용 `_team.md`)
 - 회의록: [`logs/meetinglogs/`](logs/meetinglogs/)
 - 문제 해결: [`logs/Troubleshootinglog.md`](logs/Troubleshootinglog.md)
-- 계획 문서 골격: [`docs/project-plan.md`](docs/project-plan.md) · [`docs/requirements-contract.md`](docs/requirements-contract.md) · [`docs/implementation-plan.md`](docs/implementation-plan.md) · [`docs/validation-plan.md`](docs/validation-plan.md)
+- 계획 문서(`docs/plans/`): [`project-plan.md`](docs/plans/project-plan.md) · [`implementation-plan.md`](docs/plans/implementation-plan.md) · [`validation-plan.md`](docs/plans/validation-plan.md)
+- 기준 계약: [`docs/requirements-contract.md`](docs/requirements-contract.md)
 
 ## 팀 운영 규칙 요약
 자세한 규칙은 [`CLAUDE.md`](CLAUDE.md)([`AGENTS.md`](AGENTS.md))를 따른다.
